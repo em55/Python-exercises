@@ -15,9 +15,6 @@ def is_palindrome(word):
 		return False
 	return is_palindrome(middle(word))	
 
-
-
-
 name = "redivider"
 
 print is_palindrome(name)
