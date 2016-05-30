@@ -6,6 +6,4 @@ def rev(word):
 		print word[-i]
 		i = i+1 
 
-		
-
 rev("baracuda")

@@ -1,3 +1,5 @@
+""" This program takes a list of letters from the user and prints words made of only those letters from the 'words.txt' file"""
+
 def uses_only(w, f):
 	for c in w:
 		if c not in f:
