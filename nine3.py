@@ -1,3 +1,4 @@
+"""This program prints words that do not contain any of the letters given by the user"""
 def avoids(w, f):
 	for c in w:
 		if c in f:

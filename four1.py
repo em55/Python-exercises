@@ -1,3 +1,4 @@
+"""This program has methods to draw these structures: square, polygon, polyline, arc, circle"""
 from Tkinter import *
 from swampy.TurtleWorld import *
 
@@ -41,8 +42,6 @@ def arc(t, r, angle):
 		print l, n, a
 	
 	polyline(t, l, n, angle)
-
-
 
 arc(bob, 40, 280)
 

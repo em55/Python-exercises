@@ -1,3 +1,4 @@
+"""This program prints the names of the ducklings correctly"""
 prefixes = 'JKLMNOPQ'
 suffix = 'ack'
 

@@ -1,3 +1,5 @@
+"""This program draws 3 flowers of different specifications using the swampy package"""
+
 from polygon import *
 
 world = TurtleWorld()    

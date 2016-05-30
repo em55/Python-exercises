@@ -1,3 +1,4 @@
+"""This program prints words from the 'words.txt' file that use all the letters given by the user as input"""
 def uses_all(w, f):
 	for c in f:
 		if c not in w:

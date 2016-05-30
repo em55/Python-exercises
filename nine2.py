@@ -1,3 +1,4 @@
+"""This program prints the words that do not have an 'e' and the percentage of those words"""
 def has_no_e(w):
 	if w.find('e', 0, len(w)) == -1:
 		return True
