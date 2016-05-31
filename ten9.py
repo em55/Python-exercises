@@ -1,10 +1,10 @@
-def remove_duplicates(a):
-	new_list = []
-	for char in a:
-		if char not in new_list:
-			new_list.append(char)
-	return new_list
+def remove_duplicates(in_list):
+	out_list = []
+	for char in in_list:
+		if char not in out_list:
+			out_list.append(char)
+	return out_list
 
-sample = [1,4,1,5,4,3,5,6,8,9,0,1,2,3,4,5,6,7,"cat","dog","cat"]
+input_list = raw_input("Enter a list of elements separated by a space: ").split()
 
-print remove_duplicates(sample)
+print remove_duplicates(input_list)
