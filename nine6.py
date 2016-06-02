@@ -1,10 +1,5 @@
 def is_abecedarian(w):
-	p = 'a'
-	for c in w:
-		if c < p:
-			return False
-		p = c
-	return True
+	return all(c >= w[:1] for c in w[1:])
 
 def main():
 
@@ -12,7 +7,7 @@ def main():
 	count = 0
 	for line in fin:
 		w = line.strip()
-		if is_abecedarian(w) == True:
+		if is_abecedarian(w):# w==sorted(w)
 			count = count + 1
 			print w
 

@@ -1,17 +1,14 @@
 def combine(num):
-	i=0
-	for i in range(len(num)):
-		if type(num[i]) is list:
-			combine(num[i])
+	for i in num:
+		if type(i) is list:
+			combine(i)
 		else:
-		
-			big_list.append(num[i])
-	return big_list
+			big_list.append(i)
 
 big_list = []
-a = [1,[1,2,3,4,[5,6,7],[1,2,3],[4,5,6,10]]]
+input_list = [1,[1,2,3,4,[5,6,7],[1,2,3],[4,5,6,10]]]
 
-combine(a)
+combine(input_list)
 print big_list
-print sum(big_list)
+print "Sum of elements:", sum(big_list)
 

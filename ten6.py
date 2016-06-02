@@ -1,10 +1,9 @@
-a = ['a','z','b','d']
+a = 'abs'
 
 def is_sorted(n):
 	i = 0
 	p = 0 
 	while i < len(n):
-		print n[i]
 		if n[i] < p:
 			return False
 		p = n[i]

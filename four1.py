@@ -45,4 +45,4 @@ def arc(t, r, angle):
 
 arc(bob, 40, 280)
 
-wait_for_user()
+#wait_for_user()

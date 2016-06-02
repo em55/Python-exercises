@@ -29,7 +29,7 @@ flower(bob, 7, 60, 60)
 move()
 flower(bob, 10, 50, 80)
 move()
-flower(bob, 20, 170, 30)
+flower(bob, 20, 170, 60)
 
 
 wait_for_user()

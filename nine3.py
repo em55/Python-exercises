@@ -2,19 +2,18 @@
 def avoids(w, f):
 	for c in w:
 		if c in f:
-			return True
-	return False
+			return False
+	return True
 
-def main():
+if __name__=="__main__":
 
 	forbidden = raw_input("Enter the list of letters to avoid: ")
 	fin = open('words.txt')
 
 	for line in fin:
 		word = line.strip()
-		if avoids(word, forbidden) == True:
+		if avoids(word, forbidden):
 			print word
 
 	fin.close()
 
-main()

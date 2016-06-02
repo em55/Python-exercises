@@ -1,6 +1,6 @@
 def rule(n):
 	return (is_palindrome(n, 2, 4) and 
-		is_palindrome(n+1, 1, 5) and 
+		is_palindrome(n+1, 0, 5) and 
 		is_palindrome(n+2, 1, 4) and
 		is_palindrome(n+3, 0, 6))
 		

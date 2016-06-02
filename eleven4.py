@@ -11,6 +11,7 @@ def reverse_lookup(d, v):
 		if d[k] == v:
 			l.insert(len(l), k)
 	return l
+	#return [k for k,val in d.items() if val == v]
 	
 
 def main():
